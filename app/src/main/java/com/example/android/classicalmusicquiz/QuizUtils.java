@@ -52,7 +52,6 @@ class QuizUtils {
                 answers.add(remainingSampleIDs.get(i));
             }
         }
-
         return answers;
     }
 
@@ -142,5 +141,4 @@ class QuizUtils {
         endGame.putExtra(GAME_FINISHED, true);
         context.startActivity(endGame);
     }
-
 }
